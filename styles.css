@@ -44,7 +44,7 @@ hr {
   border-top: 10px dotted;
   width: 5rem;
   color: #D3DEDC
-  text-align: center;  
+  align-items: center; 
 }
 
 .top-container {\
