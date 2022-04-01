@@ -56,8 +56,8 @@ used within a nested block*/
 }
 
 .middle-container {
-  align-items: center;
   text-align: center;
+  position: relative;
   margin-bottom: 30px;
 }
 
