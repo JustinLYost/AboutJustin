@@ -150,8 +150,11 @@ hr {
   width: 50%;
   margin: 50px auto 100px auto;
   text-align: right;
-  line-height: 2;
-  overflow-wrap: break-word;
+  line-height: 2; 
+}
+
+.dd-container{
+overflow-wrap: break-word;
 }
 
 .skills-img1 {
