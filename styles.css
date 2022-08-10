@@ -77,11 +77,11 @@ hr {
 
 .hello {
   margin: auto 18% 30px 18%;
-  width: 50%;
+  width: auto;
   text-align: center;
 }
 
-.ddtable{
+.ddTable{
     float: right;
     text-align: center;
 }
