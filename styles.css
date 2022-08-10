@@ -73,8 +73,8 @@ hr {
 }
 
 .self-img {
-  height: 10%;
-  width: 10%;
+  height: 12%;
+  width: 12%;
   margin: auto 30px auto auto;
 }
 
@@ -147,13 +147,13 @@ hr {
 }
 
 .skill-row-dd {
-  width: 50%;
+  width: auto;
   margin: 50px auto 100px auto;
   text-align: right;
   line-height: 2; 
 }
 
-.dd-container{
+.skills{
   overflow-x:auto;
 }
 
@@ -170,11 +170,10 @@ hr {
 }
 
 .skill-row-sk {
-  width: 50%;
+  width: auto;
   margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
-  overflow-x:auto;
 }
 .copy {
   margin-top: 55px;
