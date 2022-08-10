@@ -87,7 +87,7 @@ hr {
 .ddTable{
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
+  width: auto;
   border: 1px solid #ddd;
   float: right;
   text-align: center;
@@ -96,7 +96,7 @@ hr {
 .ssTable{
   border-collapse: collapse;
   border-spacing: 0;
-  width: 100%;
+  width: auto;
   border: 1px solid #ddd;
 }
 }
@@ -154,7 +154,9 @@ hr {
 }
 
 .skills{
-  overflow-x:auto;
+  overflow-x: auto;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 .skills-img1 {
