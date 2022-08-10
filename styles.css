@@ -111,7 +111,7 @@ hr {
   color: #EAF6f6;
 }
 
-skill-row-dd {
+.skill-row-dd {
   width: 50%;
   margin: 50px auto 100px auto;
   text-align: right;
