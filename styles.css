@@ -151,7 +151,7 @@ hr {
   margin: 50px auto 100px auto;
   text-align: right;
   line-height: 2;
-  overflow: break-word,
+  overflow-wrap: break-word;
 }
 
 .skills-img1 {
@@ -171,7 +171,7 @@ hr {
   margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
-  overflow: break-word;
+  overflow-wrap: break-word;
 }
 .copy {
   margin-top: 55px;
