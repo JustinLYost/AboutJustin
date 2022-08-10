@@ -79,6 +79,12 @@ hr {
   width: 40%;
 }
 
+.ddtable{
+    float: right;
+    table-layout: auto;
+    text-align: center;
+}
+
 .btn {
   -webkit-border-radius: 12;
   -moz-border-radius: 12;
