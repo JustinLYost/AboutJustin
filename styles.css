@@ -185,6 +185,7 @@ hr {
 
 .closings {
   color: #E2703A;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
