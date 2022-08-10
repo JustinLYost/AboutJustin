@@ -64,7 +64,8 @@ used within a nested block*/
 }
 
 .tc-img {
-  height: 450px;
+  height: auto;
+  width: auto;
 }
 
 .self-img {
