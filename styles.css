@@ -177,8 +177,12 @@ hr {
 }
 .copy {
   margin-top: 55px;
- color: #eaf6f6;
+  color: #eaf6f6;
   font-size: .75rem;
+}
+
+.closings{
+  color: #E2703A;
 }
 
 @media screen and (max-width: 480px) {
