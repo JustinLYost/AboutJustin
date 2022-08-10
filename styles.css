@@ -76,7 +76,8 @@ hr {
 
 .hello {
   margin: auto 30px 30px 20px;
-  width: 40%;
+  width: 50%;
+  text-align: center;
 }
 
 .ddtable{
