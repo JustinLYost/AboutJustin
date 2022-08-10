@@ -132,3 +132,34 @@ used within a nested block*/
  color: #eaf6f6;
   font-size: .75rem;
 }
+
+
+@media screen and (max-width: 480px) {
+  .left, .main, .right{
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .left, .main, .right{
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 1024px) {
+  .left, .main, .right{
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 1200px) {
+  .left, .main, .right{
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 1600px) {
+  .left, .main, .right{
+    width: 100%;
+  } 
+}
