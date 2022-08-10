@@ -154,7 +154,7 @@ hr {
 }
 
 .dd-container{
-overflow-wrap: break-word;
+  overflow-x:auto;
 }
 
 .skills-img1 {
@@ -174,7 +174,7 @@ overflow-wrap: break-word;
   margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
-  overflow-wrap: break-word;
+  overflow-x:auto;
 }
 .copy {
   margin-top: 55px;
