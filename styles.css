@@ -1,5 +1,6 @@
 div {
   margin-left: 0;
+  margin-right: 0;
 }
 
 body {
@@ -7,28 +8,28 @@ body {
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 1.125rem;
-  /*how to center*/
+  
 }
 
 span{
-margin-right: 10px;
+margin-right: auto;
 
 }
 h1 {
   font-family: 'Italianno', cursive;
-  margin: 50px auto 0 auto;
-  width: auto;
-  margin: 0 auto 0 auto;
+  margin: auto auto auto auto;
+  width: 100%;
   font-size: 5.625rem;
   color: #E2703A;
   line-height: 1;
-  display: inline-block;
-  /*how to center*/
+  
 }
 
 h2 {
   font-family: 'Source Serif 4', sans-serif;
   font-size: 2rem;
+  height: auto;
+  width: 100%;
   color: #E2703A;
   font-weight: normal;
 }
@@ -47,12 +48,9 @@ hr {
 
 .top-container {
   background-color: #EAF6F6;
-  position: relative;
-  padding-top: 100px;
   height: auto;
-  width: auto;
-  /*Positioning mainly Relative and Absolute. Absolute is
-used within a nested block*/
+  width: 100%;
+  
 }
 
 .middle-container {
@@ -104,7 +102,7 @@ used within a nested block*/
 
 .footer-link {
   color: #11999E;
-  position: relative;
+  text-align: center;
   top: .5rem;
   text-decoration: none;
 }
@@ -135,7 +133,6 @@ used within a nested block*/
  color: #eaf6f6;
   font-size: .75rem;
 }
-
 
 @media screen and (max-width: 480px) {
   .left, .main, .right{
