@@ -92,6 +92,7 @@ hr {
   float: right;
   text-align: center;
   resize: horizontal;
+  overflow: auto;
 }
 
 .ssTable{
@@ -100,6 +101,7 @@ hr {
   width: auto;
   border: 1px solid #ddd;
   resize: horizontal;
+  overflow: auto;
 }
 
 .btn {
