@@ -84,17 +84,22 @@ hr {
   text-align: center;
 }
 
-.ddTable{
+#ddTable{
   border-collapse: collapse;
   border-spacing: 0;
   width: auto;
+  max-height: 20%;
+  grid-auto-rows: minmax(<flex>);
   border: 1px solid #ddd;
   float: right;
   text-align: center;
   overflow-x: scroll;
+  margin-left: 10px;
 }
 
-.ssTable{
+
+
+#ssTable{
   border-collapse: collapse;
   border-spacing: 0;
   width: auto;
@@ -103,8 +108,8 @@ hr {
 }
 
 tr {
-  resize:horizontal; 
-  overflow:auto;
+  resize: horizontal; 
+  overflow: scroll;
 }
 
 .btn {
@@ -154,7 +159,7 @@ tr {
 
 .skill-row-dd {
   width: auto;
-  margin: 50px auto 100px auto;
+  margin: 50px auto 100px 10%;
   text-align: right;
   line-height: 2; 
 }
@@ -173,8 +178,12 @@ tr {
 .skill-img2 {
   float: right;
   margin-left: 30px;
-  padding-top: 10%;
+  padding-top: 5%;
 
+}
+
+.ssp{
+  padding-top: 10px;
 }
 
 .skill-row-sk {
