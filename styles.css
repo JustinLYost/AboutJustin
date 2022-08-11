@@ -102,7 +102,7 @@ hr {
   overflow-x: scroll;
 }
 
-th {
+tr {
   resize:horizontal; 
   overflow:auto;
 }
