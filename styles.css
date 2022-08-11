@@ -155,7 +155,7 @@ hr {
 }
 
 .skills {
-  overflow-x: auto;
+/*   overflow-x: auto; */
   margin-left: 20%;
   margin-right: 20%
 }
