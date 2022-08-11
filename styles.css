@@ -124,7 +124,7 @@ hr {
 }
 
 .skill-row-dd {
-  width: 50%;
+  width: auto;
   margin: 50px auto 100px auto;
   text-align: right;
   line-height: 2;
@@ -141,7 +141,7 @@ hr {
 }
 
 .skill-row-sk {
-  width: 50%;
+  width: auto;
   margin: 50px auto 100px auto;
   text-align: left;
   line-height: 2;
