@@ -91,6 +91,7 @@ hr {
   border: 1px solid #ddd;
   float: right;
   text-align: center;
+  resize: horizontal;
 }
 
 .ssTable{
@@ -98,6 +99,7 @@ hr {
   border-spacing: 0;
   width: auto;
   border: 1px solid #ddd;
+  resize: horizontal;
 }
 
 .btn {
