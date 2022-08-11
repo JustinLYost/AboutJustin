@@ -1,9 +1,11 @@
+
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <html>
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Justin Yost" />
   <meta name="description" content="This site was by myself, Justin Yost as a Web Development Resume" />
   <meta name="keywords" content="HTML, CSS, JavaScript, Web Development, Front End Development" />
@@ -21,13 +23,11 @@
 
 <body>
 
-  <script>
-    $('table1').flexigrid();
-    $('table2').flexigrid();
-  </script>
-
   <div class="top-container">
-
+<script>
+$('#ddTable').flexigrid();
+  $('#ssTable').flexigrid();
+</script>
     <h1>I'm Justin Yost.</h1>
     <h2> A Web Designer.</h2>
 
@@ -51,33 +51,34 @@
       <h2>My Skills.</h2>
       <div class="skill-row-dd">
         <img class="skills-img1" src="https://cdn-icons-png.flaticon.com/128/1006/1006363.png" alt="My Skills Picture 1">
+        
         <h3>Development & Design</h3>
+        
         <p>I like to keep things simple, functional, and responsive.</p>
-        <table class="table1">
+        
+      <div id="dd-container">
+        <table class="ddTable">
           <tr>
-            <th>✅HTML</th> <th>✅CSS</th> <th>✅JavaScript</th> 
-            </tr>
-            
-            <tr>
-            <th> ✅Bootstraps</th> <th> ✅JSON</th> <th>✅SDLC</th>
-
+            <th>✅HTML</th> <th>✅CSS</th> <th>✅JavaScript</th> <th> ✅Bootstraps</th> <th> ✅JSON</th> <th>✅SDLC</th>
             </tr>
 
         <tr>
-        <th>✅Angular</th> <th>✅Node.js</th> <th>✅Express.js</th> 
-        </tr>
-
-        <tr>
-        <th>✅Agile Methods</th> <th> ✅Github</th> <th>✅Figma</th>
+        <th>✅Angular</th> <th>✅Node.js</th> <th>✅Express.js</th> <th>✅Agile Methods</th> <th> ✅Github</th> <th>✅Figma</th>
         </tr>
       
       </table>
       </div>
+      </div>
+      
       <div class="skill-row-sk">
         <img class="skill-img2" src="https://cdn-icons-png.flaticon.com/128/1055/1055687.png" alt="My Skills Picture 2">
+        <br>
+        <br>
         <h3>Soft Skills</h3>
+        
         <p>Complete and professional end to end web design. </p>
-<table class="table2">
+
+       <table id="ssTable">
   <tr>
         <th>✅Cross-functional Teams</th><th> ✅Communication</th> <th> ✅Process Improvement</th> 
   </tr>
@@ -85,21 +86,19 @@
         <th>✅Creative Problem Solving</th><th> ✅Marketing</th><th> ✅Leadership</th>
   </tr>
 </table>
-
-      </div>
     </div>
     <hr>
     <div class="contact-me">
       <h2>Get In Touch</h2>
       <h3>For hire or personal projects</h3>
-      <p>No matter if your looking for a solid employee or simply help building a website.</p>
+      <p class="closings">No matter if your looking for a solid employee or simply help building a website.</p>
      
     </div>
   </div>
 
 
   <div class="bottom-container">
-    <a class="btn" href="mailto:JustinYost@live.com">CONTACT ME</a> <br><br>
+    <a class="btn" href="mailto:JustinYost@live.com">CONTACT ME</a> <br>  <br>
     <a class="footer-link" href="https://www.linkedin.com/in/justin-yost-5a697bba//">LinkedIn</a>
 
     <p class="copy"> ©2022 Justin Yost. </p>
