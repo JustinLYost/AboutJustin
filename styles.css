@@ -1,35 +1,27 @@
+div {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 body {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin: 0;
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 1.125rem;
-}
-
-#ddTable {
-  text-align: right;
-  border-collapse: collapse;
-  border-spacing: 0;
   width: auto;
-  border: 1px solid #ddd;
-  float: right;
-  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
   
 }
 
-#ssTable {
-  text-align: left;
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: auto;
-  border: 1px solid #ddd;
-  float: left;
-  text-align: center;
+span{
+margin-right: auto;
+
 }
 
 h1 {
   font-family: 'Italianno', cursive;
-  margin: auto;
+  margin: auto auto auto auto;
   width: 100%;
   font-size: 5.625rem;
   color: #E2703A;
@@ -38,11 +30,10 @@ h1 {
 }
 
 h2 {
-  padding-top: 15px;
   font-family: 'Source Serif 4', sans-serif;
   font-size: 2rem;
   height: auto;
-  width: auto;
+  width: 100%;
   color: #E2703A;
   font-weight: normal;
 }
@@ -62,7 +53,7 @@ hr {
 .top-container {
   background-color: #EAF6F6;
   height: auto;
-  width: auto;
+  width: 100%;
   
 }
 
@@ -73,7 +64,7 @@ hr {
 .bottom-container {
   color: #EAF6F6;
   background-color: #66BFBF;
-  height: auto;
+  height: 100px;
 }
 
 .tc-img {
@@ -82,13 +73,31 @@ hr {
 }
 
 .self-img {
-  height: 10%;
-  width: 10%;
+  height: 12%;
+  width: 12%;
   margin: auto 30px auto auto;
 }
 
 .hello {
-  margin: auto 30px 30px 20px;
+  margin: auto 18% 30px 18%;
+  width: auto;
+  text-align: center;
+}
+
+.ddTable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+  border: 1px solid #ddd;
+  float: right;
+  text-align: center;
+}
+
+.ssTable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: auto;
+  border: 1px solid #ddd;
 }
 
 .btn {
@@ -140,7 +149,13 @@ hr {
   width: auto;
   margin: 50px auto 100px auto;
   text-align: right;
-  line-height: 2;
+  line-height: 2; 
+}
+
+.skills {
+  overflow-x: auto;
+  margin-left: 20%;
+  margin-right: 20%
 }
 
 .skills-img1 {
@@ -151,6 +166,8 @@ hr {
 .skill-img2 {
   float: right;
   margin-left: 30px;
+  padding-top: 10%;
+
 }
 
 .skill-row-sk {
@@ -159,10 +176,16 @@ hr {
   text-align: left;
   line-height: 2;
 }
+
 .copy {
   margin-top: 55px;
- color: #eaf6f6;
+  color: #eaf6f6;
   font-size: .75rem;
+}
+
+.closings {
+  color: #E2703A;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
